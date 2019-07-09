@@ -107,8 +107,8 @@ a:hover {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: #199EB8;
-  color: #fff;
+  background: #009cc6;
+  color: #ffffff;
   text-align: center;
   font-size: 24px;
 }
@@ -864,7 +864,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   ================================================== */
 
 .site-footer {
-  background-color: #111;
+  background-color: #232748;
   padding: 0;
 }
 
@@ -893,7 +893,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .site-footer .bottom {
-  background-color: #000;
+  background-color: #232748;
   padding: 20px 0;
 }
 
@@ -922,7 +922,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .site-footer .credits a {
-  color: #199EB8;
+  color: #70cde5;
 }
 
 /* ==================================================
