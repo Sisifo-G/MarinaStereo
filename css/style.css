@@ -963,7 +963,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
   #header {
-    height: 150px;
+    height: 50px;
   }
 
   #header #logo {
