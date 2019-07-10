@@ -154,11 +154,13 @@
         <div class="row">
           <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
-              <div class="icon"><a href=""><i class="">89.3</i></a></div>
+              <div class="icon"><a href="" data-toggle="modal" data-target="#modalYT"><i class="">89.3</i></a></div>
               <h4 class="title"><a href="">Arauca</a></h4>
+              
               <!-- <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p> -->
             </div>
           </div>
+          
           <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
               <div class="icon"><a href=""><i class="">102.1</i></a></div>
@@ -405,6 +407,55 @@
   <script src="js/custom.js"></script>
 
   <script src="contactform/contactform.js"></script>
+<!--Modal: modalYT-->
+<div class="modal fade" id="modalYT" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
 
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Body-->
+      <div class="modal-body mb-0 p-0">
+
+        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+          <iframe class="embed-responsive-item" src="http://www.tustreaming.co/redmar/MARBAR.html"
+            allowfullscreen></iframe>
+        </div>
+
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer justify-content-center flex-column flex-md-row">
+        <span class="mr-4">Spread the word!</span>
+        <div>
+          <a type="button" class="btn-floating btn-sm btn-fb">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!--Twitter-->
+          <a type="button" class="btn-floating btn-sm btn-tw">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <!--Google +-->
+          <a type="button" class="btn-floating btn-sm btn-gplus">
+            <i class="fab fa-google-plus-g"></i>
+          </a>
+          <!--Linkedin-->
+          <a type="button" class="btn-floating btn-sm btn-ins">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+        <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
+          data-dismiss="modal">Cerrar</button>
+
+
+      </div>
+
+    </div>
+    <!--/.Content-->
+
+  </div>
+</div>
+<!--Modal: modalYT-->
 </body>
 </html>
