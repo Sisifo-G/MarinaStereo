@@ -746,7 +746,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   border: 1px solid #e6e6e6;
   height: 100px;
-  width: 200px;
+  width: 180px;
   position: relative;
   background: #fafafa;
 }
@@ -772,7 +772,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .icon i {
   color: #fff;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 #services .box:hover .icon i {
@@ -786,7 +786,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .title {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 14px;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
