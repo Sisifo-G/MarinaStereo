@@ -60,7 +60,7 @@ div.container.text-center{
   ================================================== */
 
 .btn {
-  background-color: #199EB8;
+  background-color: #70cde5;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 800;
   color: #fff;
@@ -90,7 +90,7 @@ div.container.text-center{
 }
 
 .btn:hover {
-  background-color: #E04F00;
+  background-color: #ffa939;
   color: #fff;
 }
 
@@ -99,7 +99,7 @@ div.container.text-center{
 }
 
 .btn-ghost {
-  border: 3px solid #fff;
+  border: 3px solid #ffa939;
   background-color: transparent;
 }
 
@@ -398,8 +398,10 @@ a:hover {
 }
 
 .slider{
+  background: rgba(0, 0, 0, 0.8);
   padding: 0;
   margin: 0;
+  
 }
 
 /* Mobile Nav Toggle */
@@ -816,29 +818,30 @@ body.mobile-nav-active #mobile-nav-toggle {
   ================================================== */
 
 #contact {
-  background: #f7f7f7;
-  padding: 80px 0;
+  background: #f9f3ee;
+  padding: 50px 0;
 }
 
 #contact h2 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
-  color: #199EB8;
+  color: #70cde5;
 }
 
 #contact .info i {
-  font-size: 32px;
-  color: #199EB8;
+  font-size: 24px;
+  color: #70cde5;
   float: left;
 }
 
 #contact .info p {
-  padding: 0 0 10px 50px;
-  line-height: 24px;
+  font-size: 13px;
+  padding: 0 0 10px 40px;
+  line-height: 18px;
 }
 
 #contact .form #sendmessage {
   color: #199EB8;
-  border: 1px solid #199EB8;
+  border: 1px solid #009cc6;
   display: none;
   text-align: center;
   padding: 15px;
@@ -847,9 +850,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #errormessage {
-  color: red;
+  color: orange;
   display: none;
-  border: 1px solid red;
+  border: 1px solid orange;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -863,7 +866,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form .validation {
-  color: red;
+  color: orange;
   display: none;
   margin: 0 0 20px;
   font-weight: 400;
