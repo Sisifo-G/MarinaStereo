@@ -731,6 +731,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   background-size: cover;
   padding: 40px 0 60px 0;
+  display: flex;
+  justify-self: center;
+}
+
+#services div{
+  display: flex;
+  justify-content: center;
 }
 
 #services .box {
