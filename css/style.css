@@ -557,7 +557,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Parallax Styling
   ================================================== */
 
-.block {
+/* .block {
   color: #fff;
   height: 490px;
   overflow: hidden;
@@ -573,7 +573,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   margin-bottom: 45px;
 }
-
+ */
 /* ==================================================
   Features Styling
   ================================================== */
@@ -1203,7 +1203,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .btn-ghost i{
-  font-size: 28;
+  font-size: 20;
 }
 
 .btn-ghost:hover {
