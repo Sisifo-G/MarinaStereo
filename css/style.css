@@ -47,7 +47,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #2dca98;
+  color: #232748;
   outline: none;
   text-decoration: none;
 }
@@ -1153,17 +1153,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   h1 {
-    font-size: 32px;
+    font-size: 20px;
     margin: 0;
   }
 
   h2,
   .tagline {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   h2 {
-    margin-bottom: 25px;
+    margin-bottom: 18px;
   }
 
   h3 {
@@ -1194,6 +1194,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 70px;
 }
 
+.carrusel-caption h1{
+  display: none;
+}
 
 .btn-ghost {
   /* border: 3px solid #199EB8; */
