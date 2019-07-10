@@ -714,7 +714,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   visibility: visible;
 }
 
+/* Título Emisoras
+--------------------------------*/
+ .titulo-emisoras h1{
+   text-align: center;
+   margin-top: 50px;
+   font-size: 34px;
+   color: #00ACE5;
+ }
 
+ .titulo-emisoras{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+ }
 
 /* Services Section
 --------------------------------*/
