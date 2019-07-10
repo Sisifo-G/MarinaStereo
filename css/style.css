@@ -99,8 +99,13 @@ div.container.text-center{
 }
 
 .btn-ghost {
-  border: 3px solid #ffa939;
-  background-color: transparent;
+  /* border: 3px solid #199EB8; */
+  background-color: #ffa939;
+  color: #232748;
+}
+
+.btn-ghost i{
+  font-size: 34;
 }
 
 .btn-ghost:hover {
