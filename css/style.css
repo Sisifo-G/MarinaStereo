@@ -38,16 +38,21 @@ h4 {
   font-size: 18px;
 }
 
+strong a {
+  color: #009cc6;
+}
+
 /* ==================================================
   General
   ================================================== */
 
 a {
+  color: #00ACE5;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #232748;
+  color: #ffa939;
   outline: none;
   text-decoration: none;
 }
@@ -517,6 +522,97 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+.section-blog{
+  display:flex;
+}
+
+.span3 {
+  margin-bottom: 30px;
+}
+ 
+
+section.section-blog {
+	padding: 100px 0 80px;
+}
+section.section-blog h4 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 46px;
+	font-weight: 700;
+	letter-spacing: -1px;
+}
+section.inner {
+	padding: 50px 0 50px;
+}
+
+
+.section-blog.orange h4 ,.section-blog.green h4{
+	color: #fcfcfc;
+}
+.section-blog.orange p,.section-blog.green p {
+	color: #f7f7f7;
+}
+.alignright {
+	text-align: right;
+}
+.alignleft {
+	text-align: left;
+}
+.aligncenter {
+	text-align: center;
+}
+.medium {
+	font-weight: normal;
+}
+
+/* === section spacer === */
+
+section-blog.spacer {
+	padding:90px 0 70px;
+	color:#fcfcfc;
+}
+
+.spacer.green,.section-blog.green {
+	background:#1bac91;
+}
+
+.spacer.green,.section-blog.green h4 {
+	color:#fff;
+}
+
+.spacer.yellow,.section-blog.yellow  {
+	background:#ffe873;
+}
+.spacer.orange,.section-blog.orange {
+	background:#f36f36;
+}
+
+section.spacer.bg2 {
+	background: url(../img/bg/bg-2.jpg) 50% 0 no-repeat fixed;
+	width:100%;
+	height:auto;
+	margin:0;	
+}
+
+section.spacer.bg3 {
+	background: url(../img/bg/bg-3.jpg) 50% 0 no-repeat fixed;
+	width:100%;
+	height:auto;
+	margin:0;	
+}
+
+section.spacer blockquote.large:before {
+	color:#eee;
+	opacity:0.6;
+}
+
+section.spacer blockquote cite {
+	color:#555;
+}
+
+
+
+
 /* ==================================================
   Stats Styling
 ================================================== */
@@ -756,7 +852,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
  }
 
-/* Services Section
+/* Emisoras Section
 --------------------------------*/
 .section-title{
   padding: 15px;
@@ -843,104 +939,85 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
-/* ==================================================
-  Team Styling
-  ================================================== */
 
-.team h2 {
-  color: #199EB8;
+
+/* === section blog === */
+
+section#blog {
+	background: #81d1e6;
 }
 
-.team .col-sm-3 {
-  padding: 0;
+.home-post {
+	background:#fff;
+	border-radius: 5px;
 }
 
-.team .card > a {
-  display: block;
+.home-post:hover {
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
 }
 
-.team .card img {
+.post-meta {
+  background: rgb(23, 116, 134);
+}
+.home-post .entry-content {
+	padding:20px;
+}
+.home-post .entry-content h5 a {
+	font-size:22px;
+}
+.home-post .entry-content h5 a:hover {
+  font-family:'Rajdhani', sans-serif;
+	color:#312f2b;
+	text-decoration:none;
+}
+.home-post .entry-content a.more {
+  color: #ffa939;
+  font-size:16px;
+  font-weight: 600;
+}
+.home-post .post-meta {
+	padding:20px;
+	overflow:hidden;
+	color:#fcfcfc;
+}
+.home-post .post-meta i {
+	float:left;
+	margin-right:20px;
+}
+.home-post .post-meta span {
+	margin-top:10px;
+}
+.home-post .post-meta span.date {
+	font-weight:700;
+	font-size:13px;
+	float:left;
+}
+.home-post .post-meta span.tags {
+	font-weight:700;
+	font-size:13px;
+	float:right;
+	color:#ddd;
+}
+.home-post .post-meta span.tags a {
+	color:#fcfcfc;
+}
+
+.max-img {
   width: 100%;
-}
-
-.team .card h4 {
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.team .card p {
-  font-size: 11px;
-  color: #fff;
-  opacity: .75;
-  margin: 0;
-  padding: 0 35px;
-}
-
-.team .card .social-nav {
-  margin-bottom: 45px;
-}
-
-.team .card .social-nav a {
-  color: #fff;
-  font-size: 16px;
-  margin: 0 4px;
-}
-
-.team .card .social-nav a:hover {
-  opacity: .75;
-}
-
-.team .card:hover .team-over {
-  opacity: 1;
-  visibility: visible;
-}
-
-.team .card:hover .card-title-wrap {
-  background-color: #199EB8;
-}
-
-.team .card:hover .card-title-wrap .card-title,
-.team .card:hover .card-title-wrap .card-text {
-  color: #fff;
-}
-
-.team .team-over {
-  padding-top: 45px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  top: 0;
-  left: 0;
-  text-align: center;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease;
-}
-
-.team .card-title-wrap {
-  padding: 15px 25px;
-  position: relative;
-  z-index: 9;
-  background-color: #fff;
-}
-
-.team .card-title-wrap .card-title,
-.team .card-title-wrap .card-text {
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
+ }
+  .max-img {
+  margin-right: auto;
+  margin-left: auto;
   display: block;
-  margin: 0;
-}
+ }
 
-.team .card-title-wrap .card-title {
-  font-size: 24px;
-  color: #333;
-}
-
-.team .card-title-wrap .card-text {
-  font-size: 18px;
-  color: #999;
-}
 
 /* ==================================================
   Contact Section
