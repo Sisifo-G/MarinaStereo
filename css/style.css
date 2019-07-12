@@ -1131,6 +1131,7 @@ section#blog {
   bottom: 0;
 }
 
+<<<<<<< HEAD
 #portfolio .portfolio-item:hover img {
   top: -30px;
 }
@@ -1144,6 +1145,12 @@ section#blog {
 
 .carousel-indicators {
   margin-bottom: -5px;
+=======
+
+
+#portfolio .portfolio-item:hover img {
+  top: -30px;
+>>>>>>> f3430d1d5cb4586f50c179997e410afb4efe0e3d
 }
 
 
