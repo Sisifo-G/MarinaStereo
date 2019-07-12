@@ -42,6 +42,32 @@ strong a {
   color: #009cc6;
 }
 
+blockquote {
+  font-size:18px;
+  color: #f4f4f4;
+	border:none;
+	padding:0;
+}
+
+blockquote.large {
+	font-size:20px;
+	font-weight:700;
+	line-height:1.1em;
+}
+blockquote.large:before {
+	font-size:30px;
+	font-family: FontAwesome;
+	content: "\f10d";
+	margin-right:20px;
+}
+
+blockquote cite 						{ display:block; font-size:14px;}
+blockquote cite:before 					{ content:"\2014 \0020"; }
+blockquote cite a,
+blockquote cite a:visited,
+blockquote cite a:visited 				{ color:#555; }
+
+
 /* ==================================================
   General
   ================================================== */
@@ -1109,6 +1135,17 @@ section#blog {
   top: -30px;
 }
 
+/* ==================================================
+  Mensaje a héroes
+  ================================================== */
+#blogCarousel2 .carousel-indicators {
+  margin-bottom: -30px;
+}
+
+.carousel-indicators {
+  margin-bottom: -10px;
+}
+
 
 /* ==================================================
   Contact Section
@@ -1296,12 +1333,20 @@ section#blog {
   }
 }
 
+@media (max-width: 425px) {
+  .enlaces-hidden {
+    display: none;
+  }
+}
+
 @media (max-width: 61.9em) {
   section,
   .block,
   .cta {
     padding: 35px 0;
   }
+
+  
 
   .features {
     padding-bottom: 5px;
@@ -1424,4 +1469,7 @@ section#blog {
   .site-footer .list-inline li {
     display: inline-block;
   }
+
+  
 }
+
