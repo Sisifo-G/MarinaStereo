@@ -799,6 +799,31 @@ section.spacer blockquote cite {
   Portfolio Styling
   ================================================== */
 
+#portfolio-wrapper .titulo-pod {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 90px;
+    justify-self: center;
+}
+
+.titulo-pod h3{
+  color: #000000;
+  text-align: center;
+}
+
+.titulo-pod .fa-pod{
+  color: #009cc6;
+  font-size: 30px;
+  width: 100%
+  text-align: center;
+}
+
+.fa-podcast:before {
+  width: 100%;
+  justify-items: center;
+}
+
 .portfolio {
   background-color: #edf6ff;
   padding-bottom: 0;
@@ -810,7 +835,7 @@ section.spacer blockquote cite {
 }
 
 .portfolio-grid {
-  margin-top: 65px;
+  margin-top: 40px;
 }
 
 .portfolio-grid .row {
@@ -1048,7 +1073,7 @@ section#blog {
 --------------------------------*/
 #portfolio {
   background: #f7f7f7;
-  padding: 80px 0;
+  padding: 20px 0;
 }
 
 #portfolio #portfolio-wrapper {
@@ -1138,6 +1163,10 @@ section#blog {
 /* ==================================================
   Mensaje a héroes
   ================================================== */
+#blogCarousel2 {
+  height: 250px;
+}
+
 #blogCarousel2 .carousel-indicators {
   margin-bottom: -60px;
 }
@@ -1147,7 +1176,7 @@ section#blog {
 }
 
 .carousel-enlaces img {
-  max-height: 100px;
+  height: 100px;
   align-items: center;
   justify-items: center;
 }
