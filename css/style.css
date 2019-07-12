@@ -1131,26 +1131,10 @@ section#blog {
   bottom: 0;
 }
 
-<<<<<<< HEAD
-#portfolio .portfolio-item:hover img {
-  top: -30px;
-}
-
-/* ==================================================
-  Mensaje a héroes
-  ================================================== */
-#blogCarousel2 .carousel-indicators {
-  margin-bottom: -30px;
-}
-
-.carousel-indicators {
-  margin-bottom: -5px;
-=======
 
 
 #portfolio .portfolio-item:hover img {
   top: -30px;
->>>>>>> f3430d1d5cb4586f50c179997e410afb4efe0e3d
 }
 
 
