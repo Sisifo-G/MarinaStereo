@@ -1146,6 +1146,11 @@ section#blog {
   margin-bottom: -5px;
 }
 
+.carousel-enlaces img {
+  max-height: 100px;
+  align-items: center;
+  justify-items: center;
+}
 
 /* ==================================================
   Contact Section
