@@ -1371,6 +1371,13 @@ section#blog {
   .enlaces-hidden {
     display: none;
   }
+
+  blockquote.large {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1em;
+}
+  
 }
 
 @media (max-width: 61.9em) {
