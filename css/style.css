@@ -1377,12 +1377,14 @@ section#blog {
 }
 
 
-@media (max-width: 767px) {
-  .block {
-    padding-left: 30px;
-    padding-right: 30px;
+@media (max-width: 575px) {
+  .enlaces-hidden {
+    display: none;
   }
+
 }
+
+
 
 @media (max-width: 425px) {
   .enlaces-hidden {
