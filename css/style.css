@@ -7,12 +7,16 @@ body {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+h3 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
+
 
 p {
   line-height: 1.55;
@@ -78,7 +82,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #ffa939;
+  color:#232748
   outline: none;
   text-decoration: none;
 }
@@ -560,11 +564,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 section.section-blog {
 	padding: 100px 0 80px;
 }
-section.section-blog h4 {
+section.section-blog h1 {
 	text-align: center;
 	margin-bottom: 40px;
 	font-size: 46px;
-	font-weight: 700;
+	font-weight: 600;
 	letter-spacing: -1px;
 }
 section.inner {
@@ -891,9 +895,12 @@ section.spacer blockquote cite {
 /* Título Emisoras
 --------------------------------*/
  .titulo-emisoras h1{
-   text-align: center;
-   margin-top: 50px;
-   font-size: 34px;
+  text-align: center;
+  margin-top: 50px;
+	
+	font-size: 46px;
+	font-weight: 600;
+	letter-spacing: -1px;
    color: #00ACE5;
  }
 
@@ -906,9 +913,16 @@ section.spacer blockquote cite {
 /* Emisoras Section
 --------------------------------*/
 .section-title{
+    text-align: center;
+    margin-top: 40px; 
+    margin-bottom: 30px;
+    font-size: 46px;
+    font-weight: 600;
+    letter-spacing: -1px;
+     color: #00ACE5;
   padding: 15px;
-  margin-top: 30px;
-  margin-bottom: 50px;
+
+  
   display: flex;
   justify-content: center;
   
@@ -1021,7 +1035,7 @@ section#blog {
 	padding:20px;
 }
 .home-post .entry-content h5 a {
-	font-size:22px;
+	font-size:20px;
 }
 .home-post .entry-content h5 a:hover {
   font-family:'Rajdhani', sans-serif;
@@ -1326,6 +1340,9 @@ section#blog {
   color: #70cde5;
 }
 
+
+
+
 /* ==================================================
   Responsive Styling
   ================================================== */
@@ -1338,7 +1355,7 @@ section#blog {
   }
 
   #header #logo {
-    margin: 10px 0 0 0;
+    margin: 15px 0 0 0;
   }
 
   #header #logo h1 {
@@ -1398,9 +1415,7 @@ section#blog {
     margin: 0;
   }
 
-  .hero-brand {
-    margin-bottom: 35px;
-  }
+  
 
   .tagline {
     margin: 35px 0;
@@ -1421,7 +1436,7 @@ section#blog {
   }
 
   h3 {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .hero {
