@@ -892,6 +892,27 @@ section.spacer blockquote cite {
   visibility: visible;
 }
 
+.btn-podcast {
+ margin-top: 20px;
+}
+
+.podcast-button {
+  margin-bottom: 60px;
+}
+
+.podcast-button a{
+  padding: 10px 30px;
+  background-color: #00ACE5;
+  color: #fff;
+}
+
+.podcast-button a:hover{
+  padding: 10px 30px;
+  background-color: #fff;
+  border: 1.5px solid #009cc6;
+  color: #232748;
+}
+
 /* Título Emisoras
 --------------------------------*/
  .titulo-emisoras h1{
